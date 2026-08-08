@@ -22,7 +22,7 @@ The 2026 Electron Crystallography School is made possible by the support of our 
 
 ## Sponsor talks
 
-Two sponsors give talks on the afternoon of [Day 3](./day3/sponsor-talks.md):
+Two sponsors give talks on the afternoon of [Day 3](./agenda.md#monday-day3):
 
 | Time | Talk | Speaker |
 | --- | --- | --- |

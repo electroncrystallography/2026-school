@@ -23,7 +23,6 @@ project:
     - file: instructors.md
     - title: Day 1
       children:
-        - file: day1/welcome.md
         - file: day1/fundamentals-diffraction.md
         - file: day1/data-collection-schemes.md
         - file: day1/reciprocal-space-reconstruction.md
@@ -43,8 +42,6 @@ project:
         - file: day3/dynamical-theory.md
         - file: day3/dynamical-refinement-demo.md
         - file: day3/serial-electron-crystallography.md
-        - file: day3/sponsor-talks.md
-        - file: day3/closing.md
     - file: software.md
     - file: sponsors.md
 site:

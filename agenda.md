@@ -15,7 +15,7 @@ Each lecture and demonstration links to its own page with teaching notes and ref
 | Time | Topic | Speaker |
 | --- | --- | --- |
 | 8:30 – 8:45 | Registration | |
-| 8:45 – 9:00 | [Welcome](./day1/welcome.md) | S. Plana Ruiz & A. Stewart |
+| 8:45 – 9:00 | Welcome | S. Plana Ruiz & A. Stewart |
 | 9:00 – 10:00 | [Fundamentals: the diffraction phenomena](./day1/fundamentals-diffraction.md) | A. Stewart |
 | 10:00 – 11:00 | [3D ED: core idea & data collection schemes](./day1/data-collection-schemes.md) | T. Gorelik |
 | 11:00 – 11:30 | ☕ Coffee break | |
@@ -52,10 +52,10 @@ Each lecture and demonstration links to its own page with teaching notes and ref
 | 11:00 – 11:30 | ☕ Coffee break | |
 | 11:30 – 12:30 | [Beyond typical 3D ED: serial electron crystallography](./day3/serial-electron-crystallography.md) | S. Plana Ruiz |
 | 12:30 – 14:00 | 🥪 Lunch | |
-| 14:00 – 14:30 | [Sponsor talk: Quantum Detectors](./day3/sponsor-talks.md) | G. Mangan |
-| 14:30 – 15:00 | [Sponsor talk: NanoMEGAS](./day3/sponsor-talks.md) | M. Veron |
+| 14:00 – 14:30 | Sponsor talk: [Quantum Detectors](./sponsors.md) | G. Mangan |
+| 14:30 – 15:00 | Sponsor talk: [NanoMEGAS](./sponsors.md) | M. Veron |
 | 16:00 – 16:30 | ☕ Coffee break | |
-| 16:30 – 17:30 | [Q&A and closing](./day3/closing.md) | S. Plana Ruiz & A. Stewart |
+| 16:30 – 17:30 | Q&A and closing | S. Plana Ruiz & A. Stewart |
 
 ## Logistics
 

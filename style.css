@@ -148,106 +148,109 @@ header.myst-fm-authors-affiliations {
 }
 
 /* ---------- Landing page hero ----------
-   Full-bleed banner with the date, title, and place laid over it. The
-   background is a real <img> rather than a CSS url() so the MyST build
-   fingerprints and copies it like any other asset. */
-article .ecs-hero {
+   A banner with the date, title, and place laid over it.
+
+   Deliberately simple: the hero stays inside the article's content column
+   (no full-bleed, no negative margins, no sticky-bar offsets), and its
+   height comes from `aspect-ratio`, never from the image's intrinsic size.
+   That last part matters — `myst start` wraps the image in <picture> but
+   `myst build --html` emits a bare <img>, so any rule that only targets
+   one of them silently stops working in the deployed build. Both are
+   targeted below, and even if neither matched, `aspect-ratio` plus
+   `overflow: hidden` keeps the page from blowing out. */
+.ecs-hero {
   position: relative;
-  grid-column: screen;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 100%;
-  /* slide up under the article padding and the 64px sticky top bar so the
-     banner meets the top of the window */
-  margin: calc(-1.75rem - 64px) 0 2.75rem 0 !important;
-  padding: calc(64px + clamp(3rem, 8vw, 6rem)) 1.5rem clamp(3.5rem, 9vw, 6.5rem);
+  aspect-ratio: 16 / 6;
+  min-height: 14rem;
+  margin: 0 0 2rem 0;
+  padding: 1.5rem;
   overflow: hidden;
+  border-radius: 0.5rem;
   text-align: center;
   color: #fff;
   background: #0e1220;
 }
-.ecs-hero picture {
+/* the banner itself, however MyST chose to wrap it */
+.ecs-hero > picture,
+.ecs-hero > img {
   position: absolute;
   inset: 0;
+  z-index: 0;
   display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0 !important;
+  object-fit: cover;
+  object-position: 70% center;
 }
-.ecs-hero img.ecs-hero-bg {
-  display: block;
+.ecs-hero > picture img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: 70% center;
 }
-/* darken the left half, where the title and the sidebar sit */
+/* darken the artwork so the title stays legible */
 .ecs-hero::after {
   content: "";
   position: absolute;
   inset: 0;
-  background:
-    linear-gradient(to right, rgba(6, 9, 18, 0.72) 0%,
-                    rgba(6, 9, 18, 0.45) 45%, rgba(6, 9, 18, 0.15) 80%),
-    linear-gradient(to bottom, rgba(6, 9, 18, 0.45), rgba(6, 9, 18, 0.1) 40%,
-                    rgba(6, 9, 18, 0.35));
-}
-.ecs-hero > *:not(picture) {
-  position: relative;
   z-index: 1;
+  background: linear-gradient(
+    to right,
+    rgba(6, 9, 18, 0.68) 0%,
+    rgba(6, 9, 18, 0.42) 50%,
+    rgba(6, 9, 18, 0.12) 85%
+  );
 }
-/* MyST renders the heading inside the container as an <h2>, and wraps the
-   text in a .heading-text span that carries the theme's color. */
+.ecs-hero > *:not(picture):not(img) {
+  position: relative;
+  z-index: 2;
+}
 .ecs-hero h1,
 .ecs-hero h2,
 .ecs-hero h1 .heading-text,
 .ecs-hero h2 .heading-text {
-  margin: 0.6rem auto;
-  /* wide enough to keep "IUCr Electron Crystallography" on one line, so the
-     title breaks over two lines rather than three */
-  max-width: min(32ch, 94%);
-  font-size: clamp(1.75rem, 4.2vw, 3.5rem) !important;
+  margin: 0.5rem auto;
+  max-width: 22ch;
+  font-size: clamp(1.4rem, 3.2vw, 2.75rem) !important;
   font-weight: 300 !important;
-  line-height: 1.1 !important;
+  line-height: 1.15 !important;
   letter-spacing: -0.015em;
   color: #fff !important;
-  text-shadow: 0 2px 24px rgba(0, 0, 0, 0.6);
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.6);
 }
-/* hide the heading anchor link that would otherwise sit in the banner */
+/* the heading anchor link would otherwise sit in the banner */
 .ecs-hero h1 a,
 .ecs-hero h2 a {
   display: none !important;
 }
 .ecs-hero-date,
 .ecs-hero-place {
-  font-size: clamp(1rem, 1.6vw, 1.3rem);
+  font-size: clamp(0.8rem, 1.2vw, 1.05rem);
   font-weight: 300;
-  letter-spacing: 0.01em;
   color: rgba(255, 255, 255, 0.92);
-  text-shadow: 0 1px 14px rgba(0, 0, 0, 0.7);
+  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.7);
 }
-.ecs-hero-date {
-  margin-bottom: 0.9rem;
+.ecs-hero-date p,
+.ecs-hero-place p {
+  margin: 0;
 }
-.ecs-hero-place {
-  margin-top: 1.1rem;
-}
-/* Once the sidebar is pinned open, centre the hero text in the space to the
-   right of it instead of on the whole window (the banner is absolutely
-   positioned, so padding here never moves it). */
-@media (min-width: 1280px) {
-  article .ecs-hero {
-    padding-left: 17rem;
+/* on narrow screens the banner gets taller so the title still fits */
+@media (max-width: 640px) {
+  .ecs-hero {
+    aspect-ratio: 4 / 3;
   }
-}
-
-/* ---------- Landing page chrome ----------
-   The top bar is left exactly as it is on every other page, so the site
-   chrome does not change between the landing page and the rest.
-
-   The sidebar keeps its normal appearance and sits in front of the banner:
-   the theme's own containers are transparent, so give the scrolling panel
-   the page background. */
-body:has(.ecs-hero) .myst-primary-sidebar-nav {
-  background: #fff;
-}
-html.dark body:has(.ecs-hero) .myst-primary-sidebar-nav {
-  background: rgb(28, 25, 23);
+  .ecs-hero h1,
+  .ecs-hero h2,
+  .ecs-hero h1 .heading-text,
+  .ecs-hero h2 .heading-text {
+    font-size: 1.4rem !important;
+  }
 }
 
 /* ---------- Landing page ---------- */
