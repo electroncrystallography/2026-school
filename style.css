@@ -516,3 +516,30 @@ html.dark .ecs-cite {
 .ecs-session-meta p {
   margin: 0;
 }
+
+/* ---------- "Cite: DOI" in the top bar ----------
+   Injected by scripts/patch_theme.py, next to the search input. */
+.ecs-cite-nav {
+  display: none;
+  align-items: center;
+  gap: 0.3rem;
+  margin-right: 0.75rem;
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+@media (min-width: 900px) {
+  .ecs-cite-nav { display: inline-flex; }
+}
+.ecs-cite-nav a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.85;
+}
+.ecs-cite-nav a:hover {
+  color: var(--ecs-accent);
+  opacity: 1;
+}
+.ecs-cite-nav a + a {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.8rem;
+}

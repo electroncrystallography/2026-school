@@ -109,6 +109,22 @@ _RUNTIME = """
     wrap.appendChild(list);
     bar.style.display='none';
     bar.after(wrap);
+    /* Cite: <concept DOI> — sits just left of the search box */
+    var home=document.querySelector('a.myst-home-link');
+    var base=home?home.getAttribute('href').replace(/\/$/,''):'';
+    var cite=document.createElement('span');
+    cite.className='ecs-cite-nav';
+    var c1=document.createElement('a');
+    c1.href=base+'/#citing-this-site';
+    c1.textContent='Cite:';
+    var c2=document.createElement('a');
+    c2.href='https://doi.org/10.5281/zenodo.21854947';
+    c2.target='_blank';c2.rel='noopener';
+    c2.textContent='10.5281/zenodo.21854947';
+    cite.appendChild(c1);
+    cite.appendChild(document.createTextNode(' '));
+    cite.appendChild(c2);
+    wrap.before(cite);
     var active=-1,hits=[];
     function render(){
       list.innerHTML='';
