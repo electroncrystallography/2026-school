@@ -1,0 +1,66 @@
+# MyST configuration for the eCS 2026 companion site.
+# See: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: ecs-2026-school
+  title: eCS 2026
+  description: >
+    Companion site for the 2026 Electron Crystallography School, an IUCr
+    satellite school held before the 27th IUCr Congress in Calgary, Canada.
+  keywords:
+    - electron crystallography
+    - electron diffraction
+    - 3D ED
+    - MicroED
+    - structure solution
+    - structure refinement
+  github: https://github.com/electroncrystallography/2026-school
+  exclude:
+    - README.md
+  toc:
+    - file: index.md
+    - file: agenda.md
+    - file: instructors.md
+    - title: Day 1
+      children:
+        - file: day1/welcome.md
+        - file: day1/fundamentals-diffraction.md
+        - file: day1/data-collection-schemes.md
+        - file: day1/reciprocal-space-reconstruction.md
+        - file: day1/symmetry-intensity-extraction.md
+        - file: day1/demo-pets2.md
+        - file: day1/demo-dials.md
+    - title: Day 2
+      children:
+        - file: day2/four-d-stem.md
+        - file: day2/phasing-direct-methods.md
+        - file: day2/dual-space-methods.md
+        - file: day2/global-optimization.md
+        - file: day2/kinematical-refinement.md
+        - file: day2/practical-session.md
+    - title: Day 3
+      children:
+        - file: day3/dynamical-theory.md
+        - file: day3/dynamical-refinement-demo.md
+        - file: day3/serial-electron-crystallography.md
+        - file: day3/sponsor-talks.md
+        - file: day3/closing.md
+    - file: software.md
+    - file: sponsors.md
+site:
+  template: book-theme
+  title: eCS 2026
+  options:
+    # Custom theming — see ./style.css
+    style: ./style.css
+    logo_text: eCS 2026
+    folders: true
+    outline_maxdepth: 2
+    hide_footer_links: true
+  nav:
+    - title: School info
+      url: https://sites.google.com/view/iucr-satellite-school/home
+    - title: IUCr
+      url: https://www.iucr.org/
+    - title: ECA
+      url: https://www.ecanews.org/
