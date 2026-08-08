@@ -561,6 +561,11 @@ article figure video {
   background: rgba(0, 0, 0, 0.88);
   cursor: zoom-out;
 }
+/* `display: flex` above would override the hidden attribute's UA display:none,
+   leaving the overlay permanently over the page — keep hidden meaning hidden */
+.ecs-lightbox[hidden] {
+  display: none !important;
+}
 .ecs-lightbox img,
 .ecs-lightbox video {
   max-width: 96vw;
