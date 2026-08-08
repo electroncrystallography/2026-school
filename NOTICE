@@ -67,6 +67,11 @@ by the organizers for this purpose:
   assets/people/mauro-gemmi.jpg
   assets/people/paul-klar.jpg
 
+Supplied by the organizers:
+
+  assets/people/colin-ophus.jpg
+  assets/people/brent-nannenga.jpg
+
 Reproduced from the subject's institutional or group profile page. These
 were NOT published by the school, and the school has not obtained explicit
 permission from the institution or the subject to reproduce them here.
@@ -78,8 +83,8 @@ themselves, or their use confirmed, before this material is relied upon:
   assets/people/corrado-cuocci.jpg           ic.cnr.it
   assets/people/louisa-meshi.jpg             cris.bgu.ac.il
 
-The remaining files in assets/people/ are generated placeholder images
-containing only initials, and carry no third-party rights.
+Every person listed on the instructors page now has a photograph; no
+placeholder images remain in assets/people/.
 
 
 Software dependencies
