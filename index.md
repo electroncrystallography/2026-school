@@ -82,7 +82,7 @@ Every release of this site is archived on [Zenodo](https://zenodo.org/records/21
 
 **DOI:** `10.5281/zenodo.21854947`
 
-Plana Ruiz, S., Stewart, A., Gorelik, T. E., Gemmi, M., Klar, P., Palatinus, L., Ophus, C., Nannenga, B., Gallagher-Jones, M., Cuocci, C., & Meshi, L. (2026). *IUCr Electron Crystallography School 2026 — companion website*. Zenodo. `https://doi.org/10.5281/zenodo.21854947`
+Plana Ruiz, S., & Stewart, A. (2026). *IUCr Electron Crystallography School 2026 — companion website*. Zenodo. `https://doi.org/10.5281/zenodo.21854947`
 
 :::
 

@@ -26,42 +26,6 @@
     {
       "name": "Stewart, Andrew",
       "affiliation": "Department of Chemistry, University College London"
-    },
-    {
-      "name": "Gorelik, Tatiana E.",
-      "affiliation": "Ernst Ruska Centre, Forschungszentrum Jülich"
-    },
-    {
-      "name": "Gemmi, Mauro",
-      "affiliation": "Istituto Italiano di Tecnologia"
-    },
-    {
-      "name": "Klar, Paul",
-      "affiliation": "Universität Bremen"
-    },
-    {
-      "name": "Palatinus, Lukáš",
-      "affiliation": "Institute of Physics of the Czech Academy of Sciences"
-    },
-    {
-      "name": "Ophus, Colin",
-      "affiliation": "Materials Science and Engineering, Stanford University"
-    },
-    {
-      "name": "Nannenga, Brent",
-      "affiliation": "School for Engineering of Matter, Transport and Energy, Arizona State University"
-    },
-    {
-      "name": "Gallagher-Jones, Marcus",
-      "affiliation": "The Rosalind Franklin Institute"
-    },
-    {
-      "name": "Cuocci, Corrado",
-      "affiliation": "Institute of Crystallography, CNR"
-    },
-    {
-      "name": "Meshi, Louisa",
-      "affiliation": "Ben Gurion University of the Negev"
     }
   ],
   "related_identifiers": [
@@ -74,6 +38,53 @@
       "identifier": "https://electroncrystallography.github.io/2026-school/",
       "relation": "isIdenticalTo",
       "scheme": "url"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Gorelik, Tatiana E.",
+      "affiliation": "Ernst Ruska Centre, Forschungszentrum Jülich",
+      "type": "ProjectMember"
+    },
+    {
+      "name": "Gemmi, Mauro",
+      "affiliation": "Istituto Italiano di Tecnologia",
+      "type": "ProjectMember"
+    },
+    {
+      "name": "Klar, Paul",
+      "affiliation": "Universität Bremen",
+      "type": "ProjectMember"
+    },
+    {
+      "name": "Palatinus, Lukáš",
+      "affiliation": "Institute of Physics of the Czech Academy of Sciences",
+      "type": "ProjectMember"
+    },
+    {
+      "name": "Ophus, Colin",
+      "affiliation": "Materials Science and Engineering, Stanford University",
+      "type": "ProjectMember"
+    },
+    {
+      "name": "Nannenga, Brent",
+      "affiliation": "School for Engineering of Matter, Transport and Energy, Arizona State University",
+      "type": "ProjectMember"
+    },
+    {
+      "name": "Gallagher-Jones, Marcus",
+      "affiliation": "The Rosalind Franklin Institute",
+      "type": "ProjectMember"
+    },
+    {
+      "name": "Cuocci, Corrado",
+      "affiliation": "Institute of Crystallography, CNR",
+      "type": "ProjectMember"
+    },
+    {
+      "name": "Meshi, Louisa",
+      "affiliation": "Ben Gurion University of the Negev",
+      "type": "ProjectMember"
     }
   ]
 }

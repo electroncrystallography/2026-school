@@ -71,13 +71,16 @@ for the full list and the terms under which each is included.
 Each GitHub release is archived on Zenodo. Cite the **concept DOI**, which always
 resolves to the most recent version:
 
-> Plana Ruiz, S., Stewart, A., Gorelik, T. E., Gemmi, M., Klar, P., Palatinus, L.,
-> Ophus, C., Nannenga, B., Gallagher-Jones, M., Cuocci, C., & Meshi, L. (2026).
+> Plana Ruiz, S., & Stewart, A. (2026).
 > *IUCr Electron Crystallography School 2026 — companion website*. Zenodo.
 > https://doi.org/10.5281/zenodo.21854947
 
 Do **not** cite `10.5281/zenodo.21854948` — that is the version DOI pinned to
 `v0.1.0` and will not follow later releases.
+
+The two organizers are the record's **creators**; the scientific committee and
+the other speakers are listed as **contributors**, so they are credited on the
+Zenodo record without appearing on the citation line.
 
 Author list and metadata for the archive live in `.zenodo.json`; `CITATION.cff`
 drives GitHub's "Cite this repository" button. Both must be updated together.
