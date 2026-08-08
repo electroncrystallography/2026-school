@@ -120,7 +120,10 @@ _RUNTIME = """
     var c2=document.createElement('a');
     c2.href='https://doi.org/10.5281/zenodo.21854947';
     c2.target='_blank';c2.rel='noopener';
-    c2.textContent='10.5281/zenodo.21854947';
+    var badge=document.createElement('img');
+    badge.src='https://zenodo.org/badge/1328109677.svg';
+    badge.alt='DOI: 10.5281/zenodo.21854947';
+    c2.appendChild(badge);
     cite.appendChild(c1);
     cite.appendChild(document.createTextNode(' '));
     cite.appendChild(c2);

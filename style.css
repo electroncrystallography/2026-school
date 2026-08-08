@@ -539,9 +539,10 @@ html.dark .ecs-cite {
   color: var(--ecs-accent);
   opacity: 1;
 }
-.ecs-cite-nav a + a {
-  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
-  font-size: 0.8rem;
+.ecs-cite-nav img {
+  display: block;
+  height: 1.25rem;
+  width: auto;
 }
 
 /* ---------- Lightbox ----------
