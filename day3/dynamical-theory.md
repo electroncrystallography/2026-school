@@ -7,8 +7,7 @@ short_title: "Dynamical theory"
 
 :::{div}
 :class: ecs-session-meta
-**Day 3 · Monday 10 August · 9:00 – 10:00** — S. Plana Ruiz  
-Lecture
+**Day 3 · Monday 10 August · 9:00 – 10:00** — [Sergi Plana Ruiz](../instructors.md#speaker-sergi-plana-ruiz)
 :::
 
 *Material coming soon.* The slides for this block have not been converted yet. This page will be filled in with the lecture content, figures, and references.

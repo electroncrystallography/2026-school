@@ -7,8 +7,7 @@ short_title: "Direct methods"
 
 :::{div}
 :class: ecs-session-meta
-**Day 2 · Sunday 9 August · 10:30 – 11:30** — C. Cuocci  
-Lecture
+**Day 2 · Sunday 9 August · 10:30 – 11:30** — [Corrado Cuocci](../instructors.md#speaker-corrado-cuocci)
 :::
 
 *Material coming soon.* The slides for this block have not been converted yet. This page will be filled in with the lecture content, figures, and references.

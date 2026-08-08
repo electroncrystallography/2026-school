@@ -7,12 +7,7 @@ short_title: "3D ED data collection"
 
 :::{div}
 :class: ecs-session-meta
-**Day 1 · Saturday 8 August · 10:00 – 11:00** — T. Gorelik  
-Lecture
-:::
-
-:::{note}
-This page is converted from Tatiana Gorelik's lecture slides. The figures and animations are taken directly from the deck.
+**Day 1 · Saturday 8 August · 10:00 – 11:00** — [Tatiana Gorelik](../instructors.md#speaker-tatiana-gorelik)
 :::
 
 ## A bit of history
@@ -25,7 +20,7 @@ Electron diffraction was used to pre-orient crystals for high-resolution TEM ima
 :alt: High-resolution TEM image of a dodecagonal quasicrystal with an inset diffraction pattern
 :width: 75%
 
-High-resolution TEM imaging guided by electron diffraction. Krumeich *et al.*, *Journal of Solid State Chemistry* **194** (2012) 106–112; image: Chuvilin, nanoGUNE, San Sebastián.
+High-resolution TEM imaging guided by electron diffraction [](doi:10.1016/j.jssc.2012.04.050); image: Chuvilin, nanoGUNE, San Sebastián.
 :::
 
 ### Tilt series — zonal patterns
@@ -46,7 +41,7 @@ Dual-axis: tilt-rotation
 
 ::::
 
-::::{grid} 2 3 3 3
+::::{grid} 2 2 2 2
 
 :::{figure} ../assets/day1/data-collection/zonal-000.png
 :alt: Zonal diffraction pattern at 0 degrees, zone [001]
@@ -88,7 +83,7 @@ The same tilt-series approach appears in the discovery of quasicrystals:
 :alt: Selected-area electron diffraction patterns from a single grain of the icosahedral phase at a series of rotation angles
 :width: 85%
 
-"Selected-area electron diffraction patterns taken from a single grain of the icosahedral phase. Rotations match those in Fig. 1." — Shechtman *et al.*, "Metallic Phase with Long-Range Orientational Order and No Translational Symmetry", *Physical Review Letters* (1984). The discovery of quasicrystals was awarded the Nobel Prize in Chemistry 2011 (Dan Shechtman).
+"Selected-area electron diffraction patterns taken from a single grain of the icosahedral phase. Rotations match those in Fig. 1." [](doi:10.1103/PhysRevLett.53.1951). The discovery of quasicrystals was awarded the Nobel Prize in Chemistry 2011 (Dan Shechtman).
 :::
 
 ## What is wrong with zonal patterns?
@@ -101,7 +96,7 @@ The same tilt-series approach appears in the discovery of quasicrystals:
 
 :::{figure} ../assets/day1/data-collection/ewald-sphere-rotation.mp4
 :alt: Animation of the Ewald sphere cutting through reciprocal lattice spots, with the resulting diffraction pattern on the detector
-:width: 90%
+:width: 100%
 
 Ewald sphere and diffraction spots (left), and the resulting diffraction pattern on the detector (right).
 :::
@@ -110,6 +105,7 @@ Ewald sphere and diffraction spots (left), and the resulting diffraction pattern
 
 :::{figure} ../assets/day1/data-collection/watermelon.jpg
 :alt: Watermelon with cut slices
+A few sections through a three-dimensional object.
 :::
 
 :::{figure} ../assets/day1/data-collection/needle-crystals.jpg
@@ -146,8 +142,7 @@ Courtesy of P. Oleynikov.
 
 ### Electron beam precession
 
-> Double conical beam-rocking system for measurement of integrated electron diffraction intensities.
-> — Vincent, Midgley, *Ultramicroscopy* **53**, 271 (1994).
+Introduced as a "double conical beam-rocking system for measurement of integrated electron diffraction intensities" [](doi:10.1016/0304-3991(94)90039-6).
 
 The beam is rotating very fast, avoiding the exact in-zone orientation (scan above the specimen, de-scan below).
 
@@ -186,6 +181,8 @@ Record diffraction patterns at many stage tilts, and treat them together as a sa
 :::
 
 ::::
+
+Each pattern is a planar section of the reciprocal space; the sections of a tilt series share the common tilt axis.
 
 :::{figure} ../assets/day1/data-collection/pattern-cred.jpg
 :alt: Electron diffraction pattern of an arbitrarily oriented crystal
@@ -256,7 +253,7 @@ Column ray paths for imaging and diffraction: SAED, nano/micro-ED, STEM.
 :alt: Overview figure of TEM phase contrast imaging, nanobeam 4D-STEM, and large-convergence-angle 4D-STEM geometries
 :width: 70%
 
-Varnavides, G., Kleijne, W.P.M.d. & Ribet, S.M. The ABCs of phase retrieval: Connecting the acronyms of scanning transmission electron microscopy. *MRS Bulletin* **51**, 897–912 (2026).
+Figure from [](doi:10.1557/s43577-026-01100-3).
 :::
 
 :::{figure} ../assets/day1/data-collection/convergence-angles.jpg
@@ -294,7 +291,7 @@ The starting problem: **small crystals**, **beam sensitive** — what is the cry
 :alt: Figure from Kolb et al. 2007 showing a microprobe STEM image used for crystal tracking and the diffraction patterns of a tilt series
 :width: 90%
 
-Microprobe STEM imaging used for tracking, with selected diffraction patterns from the tilt series. U. Kolb *et al.*, *Ultramicroscopy* **107** (2007) 507–513.
+Microprobe STEM imaging used for tracking, with selected diffraction patterns from the tilt series [](doi:10.1016/j.ultramic.2006.10.007).
 :::
 
 ### 3D ED data
@@ -350,7 +347,7 @@ Reconstructed reciprocal-space volume: the unmeasured region forms the missing c
 
 :::{figure} ../assets/day1/data-collection/still-pattern-streaks.jpg
 :alt: Still diffraction pattern of a crystal showing partially recorded reflections
-:width: 60%
+:width: 75%
 :::
 
 :::{figure} ../assets/day1/data-collection/rocking-curve-alq3.mp4
@@ -393,7 +390,7 @@ Combined stage tilt (step ~2°) + high-precision beam tilt (step 0.05°) → **r
 :alt: High-precision beam-tilt series performed in 0.05 degree intervals by the rotation method
 :width: 80%
 
-*Z. Kristallogr.* **225** (2010) 94–102.
+Beam-tilt series recorded with 0.05° steps [](doi:10.1524/zkri.2010.1202).
 :::
 
 ## Fast detectors — digital integration
@@ -406,7 +403,7 @@ Rotate the stage continuously while the detector reads out frames → **continuo
 :alt: Comparison of the still-diffraction method and the continuous-rotation method, with the resulting diffraction patterns
 :width: 90%
 
-Still-diffraction method vs. continuous-rotation method. *Nature Methods* **11**, 927–930 (2014).
+Still-diffraction method vs. continuous-rotation method [](doi:10.1038/nmeth.3043).
 :::
 
 ### Integration geometry
@@ -431,7 +428,7 @@ Precession geometry.
 :alt: SerialEM workflow: find crystals on the grid, store coordinates in the Navigator, set eucentric height, set batch parameters, start script
 :width: 85%
 
-MicroED data collection with SerialEM (SerialEM / Gunter Resch). M.J. de la Cruz *et al.*, *Ultramicroscopy* **201** (2019) 77–80.
+MicroED data collection with SerialEM (SerialEM / Gunter Resch) [](doi:10.1016/j.ultramic.2019.03.009).
 :::
 
 ### Instrumental solutions — Tecnai scripting + CETA dynamic control
@@ -510,7 +507,7 @@ Instamatic — Stef Smeets, Daniel Tchoń.
 
 :::{figure} ../assets/day1/data-collection/cred-pattern-stream.mp4
 :alt: Continuous-rotation electron diffraction data stream recorded with Instamatic
-:width: 60%
+:width: 100%
 
 Data: Stef Smeets, <https://doi.org/10.5281/zenodo.2633052>.
 :::
@@ -526,7 +523,7 @@ Fast ADT — Sergi Plana Ruiz. A DigitalMicrograph plug-in, with pre-tilt routin
 
 :::{figure} ../assets/day1/data-collection/fast-adt-flowchart.png
 :alt: Fast ADT acquisition flowchart covering both sequential and continuous acquisition, with crystal tracking
-:width: 60%
+:width: 85%
 :::
 
 ### 3D 4D-STEM
@@ -597,16 +594,3 @@ Custom solutions (depending on the instrument setup):
 | --- | --- | --- |
 | (small tilt increments) | | (crystal tracking?) |
 
-## References
-
-As cited in the slides:
-
-- R. Vincent, P.A. Midgley, "Double conical beam-rocking system for measurement of integrated electron diffraction intensities", *Ultramicroscopy* **53**, 271 (1994).
-- U. Kolb *et al.*, *Ultramicroscopy* **107** (2007) 507–513.
-- D. Shechtman *et al.*, "Metallic Phase with Long-Range Orientational Order and No Translational Symmetry", *Physical Review Letters* (1984).
-- F. Krumeich *et al.*, *Journal of Solid State Chemistry* **194** (2012) 106–112.
-- "Collecting 3D electron diffraction data by the rotation method", *Z. Kristallogr.* **225** (2010) 94–102.
-- *Nature Methods* **11**, 927–930 (2014).
-- M.J. de la Cruz *et al.*, "MicroED data collection with SerialEM", *Ultramicroscopy* **201** (2019) 77–80.
-- G. Varnavides, W.P.M.d. Kleijne, S.M. Ribet, "The ABCs of phase retrieval: Connecting the acronyms of scanning transmission electron microscopy", *MRS Bulletin* **51**, 897–912 (2026).
-- Test dataset: Stef Smeets, <https://doi.org/10.5281/zenodo.2633052>.

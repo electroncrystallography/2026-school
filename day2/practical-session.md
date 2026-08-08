@@ -7,8 +7,7 @@ short_title: "Practical session"
 
 :::{div}
 :class: ecs-session-meta
-**Day 2 · Sunday 9 August · 16:30 – 18:00** — All lecturers  
-Hands-on
+**Day 2 · Sunday 9 August · 16:30 – 18:00** — [All lecturers](../instructors.md)
 :::
 
 ## The two tracks

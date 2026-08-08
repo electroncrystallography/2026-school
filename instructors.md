@@ -63,6 +63,7 @@ The scientific committee of this school is composed of the following well-establ
 ::::{div}
 :class: ecs-people
 
+(speaker-lukas-palatinus)=
 :::{div}
 :class: ecs-person
 ![Lukáš Palatinus](assets/people/lukas-palatinus.jpg)
@@ -70,6 +71,7 @@ The scientific committee of this school is composed of the following well-establ
 *Institute of Physics of the Czech Academy of Sciences*
 :::
 
+(speaker-colin-ophus)=
 :::{div}
 :class: ecs-person
 ![Colin Ophus](assets/people/colin-ophus.jpg)
@@ -77,6 +79,7 @@ The scientific committee of this school is composed of the following well-establ
 *Materials Science and Engineering, Stanford University*
 :::
 
+(speaker-brent-nannenga)=
 :::{div}
 :class: ecs-person
 ![Brent Nannenga](assets/people/brent-nannenga.jpg)
@@ -84,6 +87,7 @@ The scientific committee of this school is composed of the following well-establ
 *School for Engineering of Matter, Transport and Energy, Arizona State University*
 :::
 
+(speaker-marcus-gallagher-jones)=
 :::{div}
 :class: ecs-person
 ![Marcus Gallagher-Jones](assets/people/marcus-gallagher-jones.jpg)
@@ -91,6 +95,7 @@ The scientific committee of this school is composed of the following well-establ
 *The Rosalind Franklin Institute*
 :::
 
+(speaker-tatiana-gorelik)=
 :::{div}
 :class: ecs-person
 ![Tatiana E. Gorelik](assets/people/tatiana-gorelik.jpg)
@@ -98,6 +103,7 @@ The scientific committee of this school is composed of the following well-establ
 *Ernst Ruska Centre, Forschungszentrum Jülich*
 :::
 
+(speaker-sergi-plana-ruiz)=
 :::{div}
 :class: ecs-person
 ![Sergi Plana Ruiz](assets/people/sergi-plana-ruiz.jpg)
@@ -105,6 +111,7 @@ The scientific committee of this school is composed of the following well-establ
 *Universitat Autònoma de Barcelona*
 :::
 
+(speaker-andrew-stewart)=
 :::{div}
 :class: ecs-person
 ![Andrew Stewart](assets/people/andrew-stewart.jpg)
@@ -112,6 +119,7 @@ The scientific committee of this school is composed of the following well-establ
 *Department of Chemistry, University College London*
 :::
 
+(speaker-corrado-cuocci)=
 :::{div}
 :class: ecs-person
 ![Corrado Cuocci](assets/people/corrado-cuocci.jpg)
@@ -119,6 +127,7 @@ The scientific committee of this school is composed of the following well-establ
 *Institute of Crystallography — CNR*
 :::
 
+(speaker-louisa-meshi)=
 :::{div}
 :class: ecs-person
 ![Louisa Meshi](assets/people/louisa-meshi.jpg)

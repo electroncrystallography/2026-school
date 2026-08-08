@@ -7,8 +7,7 @@ short_title: "Symmetry & intensities"
 
 :::{div}
 :class: ecs-session-meta
-**Day 1 · Saturday 8 August · 14:00 – 15:00** — L. Meshi  
-Lecture
+**Day 1 · Saturday 8 August · 14:00 – 15:00** — [Louisa Meshi](../instructors.md#speaker-louisa-meshi)
 :::
 
 *Material coming soon.* The slides for this block have not been converted yet. This page will be filled in with the lecture content, figures, and references.

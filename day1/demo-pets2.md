@@ -7,8 +7,7 @@ short_title: "Demo: PETS2"
 
 :::{div}
 :class: ecs-session-meta
-**Day 1 · Saturday 8 August · 15:00 – 16:00** — L. Palatinus  
-Practical demonstration
+**Day 1 · Saturday 8 August · 15:00 – 16:00** — [Lukáš Palatinus](../instructors.md#speaker-lukas-palatinus)
 :::
 
 *Material coming soon.* The slides for this block have not been converted yet. This page will be filled in with the lecture content, figures, and references.

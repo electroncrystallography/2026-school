@@ -179,6 +179,42 @@ _RUNTIME = """
       }
     },true);
   }
+  /* ---------- click-to-fullscreen lightbox for article figures -------- */
+  function lightboxInit(){
+    if(document.querySelector('.ecs-lightbox'))return;
+    var ov=document.createElement('div');
+    ov.className='ecs-lightbox';
+    ov.hidden=true;
+    document.body.appendChild(ov);
+    function close(){ov.hidden=true;ov.innerHTML='';document.body.style.overflow='';}
+    ov.addEventListener('click',close);
+    document.addEventListener('keydown',function(e){
+      if(e.key==='Escape'&&!ov.hidden)close();
+    });
+    document.addEventListener('click',function(e){
+      var t=e.target;
+      if(ov.contains(t))return;
+      if(t.tagName!=='IMG'&&t.tagName!=='VIDEO')return;
+      if(!t.closest('article')||!t.closest('figure'))return;
+      if(t.closest('a'))return;
+      var el;
+      if(t.tagName==='IMG'){
+        el=document.createElement('img');
+        el.src=t.currentSrc||t.src;
+        el.alt=t.alt||'';
+      }else{
+        el=document.createElement('video');
+        var srcEl=t.querySelector('source');
+        el.src=t.currentSrc||(srcEl?srcEl.src:t.src);
+        el.autoplay=true;el.loop=true;el.muted=true;el.controls=true;
+        el.playsInline=true;
+      }
+      ov.innerHTML='';ov.appendChild(el);ov.hidden=false;
+      document.body.style.overflow='hidden';
+      e.preventDefault();e.stopPropagation();
+    },true);
+  }
+
   /* ---------- organizing-body logos at the bottom of the sidebar ------- */
   var ORGS=[['International Union of Crystallography','https://www.iucr.org/','__IUCR__'],
             ['European Crystallographic Association','https://www.ecanews.org/','__ECA__'],
@@ -203,6 +239,7 @@ _RUNTIME = """
   function tick(){
     build(document.querySelector('button.myst-search-bar'));
     orgsTick();
+    lightboxInit();
   }
   function start(){
     tick();

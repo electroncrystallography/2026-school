@@ -7,8 +7,7 @@ short_title: "Fundamentals: diffraction"
 
 :::{div}
 :class: ecs-session-meta
-**Day 1 · Saturday 8 August · 9:00 – 10:00** — A. Stewart  
-Lecture
+**Day 1 · Saturday 8 August · 9:00 – 10:00** — [Andrew Stewart](../instructors.md#speaker-andrew-stewart)
 :::
 
 *Material coming soon.* The slides for this block have not been converted yet. This page will be filled in with the lecture content, figures, and references.

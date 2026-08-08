@@ -543,3 +543,29 @@ html.dark .ecs-cite {
   font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
   font-size: 0.8rem;
 }
+
+/* ---------- Lightbox ----------
+   Click any article figure image or movie to view it full screen; click
+   anywhere or press Esc to close. Injected by scripts/patch_theme.py. */
+article figure img,
+article figure video {
+  cursor: zoom-in;
+}
+.ecs-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.88);
+  cursor: zoom-out;
+}
+.ecs-lightbox img,
+.ecs-lightbox video {
+  max-width: 96vw;
+  max-height: 96vh;
+  width: auto;
+  height: auto;
+  background: #fff;
+}
