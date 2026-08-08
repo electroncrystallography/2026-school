@@ -1,0 +1,58 @@
+cff-version: 1.2.0
+message: "If you use this material, please cite it as below."
+title: "IUCr Electron Crystallography School 2026 — companion website"
+abstract: >-
+  Companion website for the 2026 Electron Crystallography School, an IUCr
+  satellite school held 8–10 August 2026 in Calgary, Canada, before the 27th
+  Congress and General Assembly of the International Union of Crystallography.
+  Collects the programme, the instructors, one page per lecture and practical
+  demonstration, and the software and datasets used in the hands-on session.
+type: dataset
+version: 0.1.0
+date-released: 2026-08-08
+license: CC-BY-4.0
+url: "https://electroncrystallography.github.io/2026-school/"
+repository-code: "https://github.com/electroncrystallography/2026-school"
+keywords:
+  - electron crystallography
+  - electron diffraction
+  - 3D ED
+  - MicroED
+  - structure solution
+  - structure refinement
+  - 4D-STEM
+  - teaching material
+authors:
+  - given-names: Sergi
+    family-names: Plana Ruiz
+    affiliation: Universitat Autònoma de Barcelona
+  - given-names: Andrew
+    family-names: Stewart
+    affiliation: Department of Chemistry, University College London
+  - given-names: Tatiana E.
+    family-names: Gorelik
+    affiliation: Ernst Ruska Centre, Forschungszentrum Jülich
+  - given-names: Mauro
+    family-names: Gemmi
+    affiliation: Istituto Italiano di Tecnologia
+  - given-names: Paul
+    family-names: Klar
+    affiliation: Universität Bremen
+  - given-names: Lukáš
+    family-names: Palatinus
+    affiliation: Institute of Physics of the Czech Academy of Sciences
+  - given-names: Colin
+    family-names: Ophus
+    affiliation: Materials Science and Engineering, Stanford University
+  - given-names: Brent
+    family-names: Nannenga
+    affiliation: School for Engineering of Matter, Transport and Energy, Arizona State University
+  - given-names: Marcus
+    family-names: Gallagher-Jones
+    affiliation: The Rosalind Franklin Institute
+  - given-names: Corrado
+    family-names: Cuocci
+    affiliation: Institute of Crystallography, CNR
+  - given-names: Louisa
+    family-names: Meshi
+    affiliation: Ben Gurion University of the Negev

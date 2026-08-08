@@ -1,0 +1,77 @@
+THIRD-PARTY MATERIAL
+====================
+
+The CC BY 4.0 license in LICENSE applies ONLY to the material created for
+this website: the Markdown page text, `style.css`, `scripts/patch_theme.py`,
+the MyST configuration, and the GitHub Actions workflow.
+
+It does NOT apply to the following files, which are the property of their
+respective owners and are included here solely to document and present the
+2026 Electron Crystallography School. No license, sublicense, or transfer of
+rights in this material is granted or implied by LICENSE, by the deposit of
+this repository in Zenodo, or by its publication on GitHub Pages. Reuse
+requires permission from the rights holder.
+
+
+Logos and trademarks
+--------------------
+
+  assets/logos/ecs2026.png     Electron Crystallography School 2026 logo.
+                               Property of the school organizers.
+
+  assets/logos/iucr.png        International Union of Crystallography.
+                               Trademark of the IUCr (www.iucr.org).
+
+  assets/logos/eca.png         European Crystallographic Association.
+                               Trademark of the ECA (www.ecanews.org).
+
+  assets/logos/electra.png     ELECTRA electron crystallography network.
+                               Property of the ELECTRA network.
+
+  assets/sponsors/nanomegas.png          Trademark of NanoMEGAS SPRL.
+  assets/sponsors/quantum-detectors.png  Trademark of Quantum Detectors Ltd.
+  assets/sponsors/dectris-cloud.png      Trademark of DECTRIS Ltd.
+  assets/sponsors/simple-origin.png      Trademark of Simple Origin, Inc.
+
+Each logo is used to identify the organization it belongs to, in its
+capacity as an organizer of or sponsor to the school. This is nominative
+use and does not imply endorsement of this website by those organizations.
+
+
+Artwork
+-------
+
+  assets/hero-banner.jpg       Banner artwork for the 2026 Electron
+                               Crystallography School, reproduced from the
+                               school's own website
+                               (sites.google.com/view/iucr-satellite-school).
+                               Copyright is retained by its creator.
+
+
+Photographs of individuals
+--------------------------
+
+  assets/people/sergi-plana-ruiz.jpg
+  assets/people/andrew-stewart.jpg
+  assets/people/tatiana-gorelik.jpg
+  assets/people/mauro-gemmi.jpg
+  assets/people/paul-klar.jpg
+
+Photographs of identifiable people, reproduced from the school's own
+website, where they were published by the organizers with the subjects'
+agreement for that purpose. Each subject retains all rights in their own
+likeness. These images are published here only to identify the school's
+organizers and scientific committee, and must not be reused for any other
+purpose. Any subject may request removal at any time by contacting the
+organizers at IUCrECS2026@gmail.com; such a request will be honored.
+
+The remaining files in assets/people/ are generated placeholder images
+containing only initials, and carry no third-party rights.
+
+
+Software dependencies
+---------------------
+
+The site is built with MyST Markdown (mystmd.org) and its `book-theme`
+template, which are separately licensed by their authors and are not
+redistributed in this repository.

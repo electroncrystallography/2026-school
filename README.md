@@ -43,17 +43,37 @@ Source → GitHub Actions**.
 - `day1/`, `day2/`, `day3/` — one page per programme block
 - `software.md` — install instructions and datasets for the practical session
 - `sponsors.md` — sponsors and organizing bodies
-- `assets/` — school and sponsor logos
+- `assets/` — school and sponsor logos, banner artwork, instructor photos
 - `style.css` — theme overrides for the MyST book-theme
 - `scripts/patch_theme.py` — post-download theme patches
+- `LICENSE` / `NOTICE` — CC BY 4.0, plus the third-party carve-out
+- `.zenodo.json` / `CITATION.cff` — archive and citation metadata
 
 ## Adding block content
 
 Each page in `day1/`, `day2/`, `day3/` is currently a stub carrying the block
-title, time, speaker, and a provisional outline. The plan is to convert the
-speakers' PPTX decks to MyST Markdown one block at a time, watermarking the
-figures and carrying over all references and citations.
+title, time, and speaker. The plan is to convert the speakers' PPTX decks to
+MyST Markdown one block at a time, watermarking the figures and carrying over
+all references and citations.
+
+## License
+
+Text and code created for this site are licensed [CC BY 4.0](LICENSE).
+
+Logos, sponsor marks, the banner artwork, and photographs of individuals are
+**third-party material and are not covered by that license** — see [NOTICE](NOTICE)
+for the full list and the terms under which each is included.
 
 ## Citing this site
 
-A DOI will be minted for the site once the framework is published.
+Each GitHub release is archived on Zenodo. Cite the **concept DOI**, which always
+resolves to the most recent version:
+
+<!-- Replace after the first Zenodo release; see NOTICE/README history for the
+     procedure. The concept DOI appears in the "Versions" box of the Zenodo
+     record, under "Cite all versions". -->
+
+    DOI: (pending first release)
+
+Author list and metadata for the archive live in `.zenodo.json`; `CITATION.cff`
+drives GitHub's "Cite this repository" button. Both must be updated together.

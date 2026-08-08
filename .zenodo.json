@@ -1,0 +1,79 @@
+{
+  "title": "IUCr Electron Crystallography School 2026 — companion website",
+  "upload_type": "lesson",
+  "description": "<p>Companion website for the 2026 Electron Crystallography School, an IUCr satellite school held 8–10 August 2026 in Calgary, Canada, immediately before the 27th Congress and General Assembly of the International Union of Crystallography.</p><p>The site collects the three-day programme, the instructors, one page per lecture and practical demonstration, and installation instructions and tutorial datasets for the software used in the hands-on session (PETS2 + Jana2020 and DIALS + Phenix).</p><p><strong>Note on this version:</strong> this release archives the site framework, programme, and software pages. The lecture and demonstration pages are placeholders; their content has not yet been converted from the speakers' slides.</p><p>Text and code created for this site are licensed CC BY 4.0. Logos, sponsor marks, banner artwork, and photographs of individuals are third-party material excluded from that license — see the NOTICE file in the repository.</p>",
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "version": "0.1.0",
+  "language": "eng",
+  "keywords": [
+    "electron crystallography",
+    "electron diffraction",
+    "3D ED",
+    "MicroED",
+    "structure solution",
+    "structure refinement",
+    "dynamical refinement",
+    "4D-STEM",
+    "crystallography school",
+    "teaching material"
+  ],
+  "creators": [
+    {
+      "name": "Plana Ruiz, Sergi",
+      "affiliation": "Universitat Autònoma de Barcelona"
+    },
+    {
+      "name": "Stewart, Andrew",
+      "affiliation": "Department of Chemistry, University College London"
+    },
+    {
+      "name": "Gorelik, Tatiana E.",
+      "affiliation": "Ernst Ruska Centre, Forschungszentrum Jülich"
+    },
+    {
+      "name": "Gemmi, Mauro",
+      "affiliation": "Istituto Italiano di Tecnologia"
+    },
+    {
+      "name": "Klar, Paul",
+      "affiliation": "Universität Bremen"
+    },
+    {
+      "name": "Palatinus, Lukáš",
+      "affiliation": "Institute of Physics of the Czech Academy of Sciences"
+    },
+    {
+      "name": "Ophus, Colin",
+      "affiliation": "Materials Science and Engineering, Stanford University"
+    },
+    {
+      "name": "Nannenga, Brent",
+      "affiliation": "School for Engineering of Matter, Transport and Energy, Arizona State University"
+    },
+    {
+      "name": "Gallagher-Jones, Marcus",
+      "affiliation": "The Rosalind Franklin Institute"
+    },
+    {
+      "name": "Cuocci, Corrado",
+      "affiliation": "Institute of Crystallography, CNR"
+    },
+    {
+      "name": "Meshi, Louisa",
+      "affiliation": "Ben Gurion University of the Negev"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://sites.google.com/view/iucr-satellite-school/home",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://electroncrystallography.github.io/2026-school/",
+      "relation": "isIdenticalTo",
+      "scheme": "url"
+    }
+  ]
+}
