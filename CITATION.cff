@@ -11,6 +11,7 @@ type: dataset
 version: 0.1.0
 date-released: 2026-08-08
 license: CC-BY-4.0
+doi: 10.5281/zenodo.21854947
 url: "https://electroncrystallography.github.io/2026-school/"
 repository-code: "https://github.com/electroncrystallography/2026-school"
 keywords:

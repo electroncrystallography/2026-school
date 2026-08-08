@@ -166,7 +166,7 @@ _RUNTIME = """
   /* ---------- organizing-body logos at the bottom of the sidebar ------- */
   var ORGS=[['International Union of Crystallography','https://www.iucr.org/','__IUCR__'],
             ['European Crystallographic Association','https://www.ecanews.org/','__ECA__'],
-            ['ELECTRA','https://sites.google.com/view/iucr-satellite-school/home','__ELECTRA__']];
+            ['ELECTRA','https://electraec.wordpress.com/','__ELECTRA__']];
   function orgsTick(){
     var toc=document.querySelector('.myst-primary-sidebar-toc');
     if(!toc||!toc.parentElement)return;

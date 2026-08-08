@@ -480,6 +480,27 @@ article table th:first-child {
   white-space: nowrap;
 }
 
+/* ---------- Citation block (landing page) ---------- */
+.ecs-cite {
+  margin: 1rem 0 1.5rem 0;
+  padding: 0.9rem 1.1rem;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-left: 3px solid var(--ecs-accent);
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+html.dark .ecs-cite {
+  border-color: rgba(255, 255, 255, 0.18);
+  border-left-color: var(--ecs-accent);
+}
+.ecs-cite p {
+  margin: 0;
+}
+.ecs-cite p + p {
+  margin-top: 0.6rem;
+}
+
 /* ---------- Session header on each block page ---------- */
 .ecs-session-meta {
   margin: 0 0 1.25rem 0;

@@ -72,3 +72,18 @@ The [practical session](./day2/practical-session.md) is built around two softwar
 - **DIALS + Phenix** for macromolecular compounds
 
 The [software page](./software.md) has installation instructions for both, along with the tutorial datasets — the Jana cookbook examples and the Zenodo archives used during the school.
+
+## Citing this site
+
+Every release of this site is archived on [Zenodo](https://zenodo.org/records/21854947). Please cite the DOI below — it always resolves to the most recent version:
+
+:::{div}
+:class: ecs-cite
+
+**DOI:** `10.5281/zenodo.21854947`
+
+Plana Ruiz, S., Stewart, A., Gorelik, T. E., Gemmi, M., Klar, P., Palatinus, L., Ophus, C., Nannenga, B., Gallagher-Jones, M., Cuocci, C., & Meshi, L. (2026). *IUCr Electron Crystallography School 2026 — companion website*. Zenodo. `https://doi.org/10.5281/zenodo.21854947`
+
+:::
+
+Material created for this site is licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Logos, sponsor marks, the banner artwork, and photographs of individuals are third-party material excluded from that license; see the [NOTICE](https://github.com/electroncrystallography/2026-school/blob/main/NOTICE) file for details.

@@ -40,6 +40,6 @@ The school is an official satellite school of the International Union of Crystal
 
 [![European Crystallographic Association](assets/logos/eca.png)](https://www.ecanews.org/)
 
-![ELECTRA](assets/logos/electra.png)
+[![ELECTRA](assets/logos/electra.png)](https://electraec.wordpress.com/)
 
 :::
