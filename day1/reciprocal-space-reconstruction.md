@@ -109,7 +109,7 @@ Assume we know where the axis is — then each frame can be assigned its plane i
 
 :::{figure} ../assets/day1/reciprocal-space/cylinder-mapping.png
 :alt: Diagram: the tilt axis angle phi in the frame, and the frames arranged about the axis in 3D
-The axis direction φ in the frame, and the stack of frames arranged about it.
+The frames arranged about the tilt axis in 3D.
 :::
 
 :::{figure} ../assets/day1/reciprocal-space/wedge-stack-blender.jpg
@@ -132,7 +132,7 @@ With the tilt axis in the **correct position**, the projections of the peak clou
 :alt: Peak cloud in the reconstruction program with the tilt axis set correctly: rows of sharp lattice lines
 :width: 100%
 
-Correct axis position: the cloud collapses onto sharp lattice rows (green: projected profiles).
+Correct axis position: the cloud collapses onto sharp lattice rows.
 :::
 
 With the axis **wrong by 5°** the lattice rows bend into arcs:
