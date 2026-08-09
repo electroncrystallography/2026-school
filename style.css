@@ -575,3 +575,11 @@ article figure video {
   height: auto;
   background: #fff;
 }
+
+/* ---------- Videos in figure grids ----------
+   A <video> reports no intrinsic width before metadata loads, so MyST
+   grid columns collapse to 0px around it. Give videos the full track. */
+article figure video {
+  width: 100%;
+  height: auto;
+}

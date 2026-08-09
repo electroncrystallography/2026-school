@@ -299,6 +299,27 @@ STEM phase-contrast measurements reach the same contrast mechanisms — sample C
 
 If we can measure the shift of the disk-shaped probe in diffraction space, we can estimate the derivative of the potential (the field). The shift can come from a segmented detector (top/bottom, left/right differences) or from the probe's center of mass on a pixelated camera. A grid of these measurements lets us numerically reconstruct the 2D sample potential — phase-contrast imaging.
 
+::::{grid} 3 3 3 3
+
+:::{figure} ../assets/day2/four-d-stem/dpc-movie-2mrad.mp4
+:alt: Movie of the center-of-mass DPC measurement with a 2 mrad probe scanning the potential
+2 mrad probe.
+:::
+
+:::{figure} ../assets/day2/four-d-stem/dpc-movie-6mrad.mp4
+:alt: Movie of the center-of-mass DPC measurement with a 6 mrad probe scanning the potential
+6 mrad probe.
+:::
+
+:::{figure} ../assets/day2/four-d-stem/dpc-movie-32mrad.mp4
+:alt: Movie of the center-of-mass DPC measurement with a 32 mrad probe scanning the potential
+32 mrad probe.
+:::
+
+::::
+
+As the probe scans across the potential (top, red), the diffraction disk shifts, and its center of mass tracks the local field (middle, bottom).
+
 :::{figure} ../assets/day2/four-d-stem/dpc-infinite.jpg
 :alt: Center-of-mass DPC reconstructions at infinite dose for 2, 6, and 32 mrad probes
 :width: 100%
