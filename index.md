@@ -32,6 +32,13 @@ Calgary, Canada
 Teaching material from the 2026 Electron Crystallography School, an IUCr satellite school held before the 27th Congress and General Assembly of the IUCr. This site is a lasting resource: the lectures, the practical demonstrations, and the software used to run them.
 :::
 
+:::{figure} assets/school-photo-2026.jpg
+:alt: Group photo of the instructors and students of the 2026 Electron Crystallography School
+:width: 100%
+
+The instructors and students of the 2026 Electron Crystallography School, at the BMO Centre in Calgary. (Louisa Meshi not present.)
+:::
+
 ## Start here
 
 ::::{grid} 1 1 2 2
