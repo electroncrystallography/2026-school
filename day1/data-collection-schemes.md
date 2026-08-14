@@ -241,10 +241,10 @@ Data geometry: common axis (the tilt axis).
 ### Geometry: electron diffraction
 
 :::{figure} ../assets/day1/data-collection/tem-ray-paths.jpg
-:alt: Ray paths through a TEM column in imaging mode and diffraction mode, from electron source to screen
-:width: 80%
+:alt: Ray paths through a TEM column for imaging, selected-area diffraction, and condenser nanodiffraction
+:width: 100%
 
-Column ray paths for imaging and diffraction: SAED, nano/micro-ED, STEM.
+Column ray paths for imaging and diffraction: image, SAED, nano/micro-ED and STEM.
 :::
 
 ### 4D-STEM (x, y, k<sub>x</sub>, k<sub>y</sub>)
@@ -257,7 +257,7 @@ Figure from [](doi:10.1557/s43577-026-01100-3).
 :::
 
 :::{figure} ../assets/day1/data-collection/convergence-angles.jpg
-:alt: Schematic of beams with decreasing convergence angle focused by the objective lens onto the back focal plane
+:alt: Schematic of three beams of increasing convergence angle focused by the objective lens onto the back focal plane
 :width: 80%
 
 Convergent Beam Electron Diffraction (CBED): the convergence angle sets whether Bragg disks overlap in the back focal plane of the objective lens (the 1st diffraction pattern).
@@ -265,16 +265,16 @@ Convergent Beam Electron Diffraction (CBED): the convergence angle sets whether 
 
 ::::{grid} 3 3 3 3
 
-:::{figure} ../assets/day1/data-collection/cbed-disks.jpg
-:alt: CBED pattern with large overlapping disks
-:::
-
 :::{figure} ../assets/day1/data-collection/nanobeam-pattern-a.jpg
-:alt: Nanobeam diffraction pattern with small disks
+:alt: Diffraction pattern with sharp spots, from a nearly parallel beam
 :::
 
 :::{figure} ../assets/day1/data-collection/nanobeam-pattern-b.jpg
-:alt: Nanobeam diffraction pattern with sharp spots
+:alt: Diffraction pattern with small disks, from a more convergent beam
+:::
+
+:::{figure} ../assets/day1/data-collection/cbed-disks.jpg
+:alt: CBED pattern with large overlapping disks, from the most convergent beam
 :::
 
 ::::
