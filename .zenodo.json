@@ -1,10 +1,10 @@
 {
   "title": "IUCr Electron Crystallography School 2026 — companion website",
   "upload_type": "lesson",
-  "description": "<p>Companion website for the 2026 Electron Crystallography School, an IUCr satellite school held 8–10 August 2026 in Calgary, Canada, immediately before the 27th Congress and General Assembly of the International Union of Crystallography.</p><p>The site collects the three-day programme, the instructors, one page per lecture and practical demonstration, and installation instructions and tutorial datasets for the software used in the hands-on session (PETS2 + Jana2020 and DIALS + Phenix).</p><p><strong>Note on this version:</strong> this release archives the site framework, programme, and software pages. The lecture and demonstration pages are placeholders; their content has not yet been converted from the speakers' slides.</p><p>Text and code created for this site are licensed CC BY 4.0. Logos, sponsor marks, banner artwork, and photographs of individuals are third-party material excluded from that license — see the NOTICE file in the repository.</p>",
+  "description": "<p>Companion website for the 2026 Electron Crystallography School, an IUCr satellite school held 8–10 August 2026 in Calgary, Canada, immediately before the 27th Congress and General Assembly of the International Union of Crystallography.</p><p>The site collects the three-day programme, the instructors, one page per lecture and practical demonstration, and installation instructions and tutorial datasets for the software used in the hands-on session (PETS2 + Jana2020 and DIALS + Phenix).</p><p><strong>Note on this version:</strong> eight lecture and demonstration pages have been converted from the speakers' slides — fundamentals of the diffraction phenomena; 3D ED core idea and data collection schemes; data reduction, reciprocal space reconstruction and unit cell determination; the DIALS demonstration; 4D-STEM; the phase problem and direct methods; global optimization methods; and kinematical structure refinement. The remaining lecture pages are placeholders.</p><p>Text and code created for this site are licensed CC BY 4.0. Logos, sponsor marks, banner artwork, and photographs of individuals are third-party material excluded from that license — see the NOTICE file in the repository.</p>",
   "license": "cc-by-4.0",
   "access_right": "open",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "language": "eng",
   "keywords": [
     "electron crystallography",
